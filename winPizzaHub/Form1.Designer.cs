@@ -85,6 +85,18 @@ namespace winPizzaHub
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Пепперони";
             // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Location = new System.Drawing.Point(182, 71);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(478, 117);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Острая разновидность салями итало-американского происхождения. Обычно делается из" +
+    " свинины.";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -168,7 +180,7 @@ namespace winPizzaHub
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(818, 561);
+            this.ClientSize = new System.Drawing.Size(835, 561);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
